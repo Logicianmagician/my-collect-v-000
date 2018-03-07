@@ -1,7 +1,7 @@
 def my_collect(array)
   i = 0
   collect = []
-  while array.length >= i
+  while array.empty?
     collect << array[i]
     i += 1
   end
