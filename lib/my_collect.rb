@@ -6,5 +6,5 @@ def my_collect(array)
     collect << array[i]
     i += 1
   end
-  collect {|i| i.first.capitalize}
+  collect {|i| i.first.upcase}
 end
