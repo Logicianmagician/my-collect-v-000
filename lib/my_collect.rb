@@ -6,5 +6,5 @@ def my_collect(array)
   end
     i += 1
   end
-  collect
+  array
 end
