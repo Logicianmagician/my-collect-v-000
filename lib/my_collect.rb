@@ -5,5 +5,5 @@ def my_collect(array)
     collect << array[i]
     i += 1
   end
-  collect {|i| i.split("").first}
+  collect
 end
