@@ -5,5 +5,5 @@ def my_collect(array)
     collect << array[i]
     i += 1
   end
-  collect
+  collect.first.capitalize
 end
